@@ -1,0 +1,229 @@
+
+/* Activate Button */
+/*******************/
+/*******************/
+/*******************/
+/*******************/
+
+	.activate-button
+		{
+			height: 33px;
+			width:  121px;
+			 cursor: pointer;
+
+				background:#C0E0F7;
+			   	   background: -moz-linear-gradient(top, #E7F5FD, #C0E0F7);
+				background: -webkit-linear-gradient(top, #E7F5FD, #C0E0F7);
+						background: linear-gradient(top, #E7F5FD, #C0E0F7);
+
+				
+				   -moz-border-radius:6px;
+				-webkit-border-radius:6px;
+						border-radius:6px;
+				
+				border:1px solid #CDCDCD;
+				display:inline-block;
+				
+				color: #343434;
+			
+				font-size:14px;
+				font-weight:bold;
+				text-decoration:none;
+				text-shadow:1px 1px 0px #ffffff;
+		 
+			   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
+			-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
+					box-shadow: 2px 2px 6px 0px #B7B7B7;
+					
+			behavior: url(PIE/PIE.htc);		
+		}
+			
+			.activate-button:hover
+			{
+				color: #0E65AC;
+				
+					background:#AECBE0;
+				   	   background: -moz-linear-gradient(bottom, #E7F5FD, #C0E0F7);
+					background: -webkit-linear-gradient(bottom, #E7F5FD, #C0E0F7);
+							background: linear-gradient(bottom, #E7F5FD, #C0E0F7);
+			
+				behavior: url(PIE/PIE.htc);
+			}
+			
+				.activate-button:active
+				{
+					color: #343434;
+				}
+
+
+/* Code Button (button with checkered border)*/
+/*********************************************/
+/*********************************************/
+/*********************************************/
+/*********************************************/
+
+
+.code-button
+	{
+		height: 33px;
+		width:  121px;
+		 cursor: pointer;
+
+			background:#C0E0F7;
+		   	   background: -moz-linear-gradient(top, #E7F5FD, #C0E0F7);
+			background: -webkit-linear-gradient(top, #E7F5FD, #C0E0F7);
+					background: linear-gradient(top, #E7F5FD, #C0E0F7);
+
+			
+			   -moz-border-radius:6px;
+			-webkit-border-radius:6px;
+					border-radius:6px;
+			
+			border:1px solid #CDCDCD;
+			display:inline-block;
+			
+			color: #343434;
+		
+			font-size:14px;
+			font-weight:bold;
+			text-decoration:none;
+			text-shadow:1px 1px 0px #ffffff;
+	 
+		   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
+		-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
+				box-shadow: 2px 2px 6px 0px #B7B7B7;
+				
+		behavior: url(PIE/PIE.htc);		
+	}
+		
+		.code-button:hover
+		{
+			color: #0E65AC;
+			
+				background:#AECBE0;
+			   	   background: -moz-linear-gradient(bottom, #E7F5FD, #C0E0F7);
+				background: -webkit-linear-gradient(bottom, #E7F5FD, #C0E0F7);
+						background: linear-gradient(bottom, #E7F5FD, #C0E0F7);
+		
+			behavior: url(PIE/PIE.htc);
+		}
+		
+			.code-button:active
+			{
+				color: #343434;
+			}
+
+
+/*		Get Code Button		*/	
+/****************************/
+/****************************/
+/****************************/
+/****************************/
+/****************************/
+
+
+.getCode-button
+	{
+		height: 33px;
+		width:  121px;
+		 cursor: pointer;
+
+			background:#C0E0F7;
+		   	   background: -moz-linear-gradient(top, #E7F5FD, #C0E0F7);
+			background: -webkit-linear-gradient(top, #E7F5FD, #C0E0F7);
+					background: linear-gradient(top, #E7F5FD, #C0E0F7);
+
+			
+			   -moz-border-radius:6px;
+			-webkit-border-radius:6px;
+					border-radius:6px;
+			
+			border:1px solid #CDCDCD;
+			display:inline-block;
+			
+			color: #343434;
+		
+			font-size:14px;
+			font-weight:bold;
+			text-decoration:none;
+			text-shadow:1px 1px 0px #ffffff;
+	 
+		   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
+		-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
+				box-shadow: 2px 2px 6px 0px #B7B7B7;
+				
+		behavior: url(PIE/PIE.htc);		
+	}
+		
+		.getCode-button:hover
+		{
+			color: #0E65AC;
+			
+				background:#AECBE0;
+			   	   background: -moz-linear-gradient(bottom, #E7F5FD, #C0E0F7);
+				background: -webkit-linear-gradient(bottom, #E7F5FD, #C0E0F7);
+						background: linear-gradient(bottom, #E7F5FD, #C0E0F7);
+		
+			behavior: url(PIE/PIE.htc);
+		}
+		
+			.getCode-button:active
+			{
+				color: #343434;
+			}
+
+/*  getCode-oldLanding-button  */
+/*******************************/
+/*******************************/
+/*******************************/
+/*******************************/
+
+.getCode-oldLanding-button
+	{
+		height: 33px;
+		width:  121px;
+		 cursor: pointer;
+
+			background:#C0E0F7;
+		   	   background: -moz-linear-gradient(top, #E7F5FD, #C0E0F7);
+			background: -webkit-linear-gradient(top, #E7F5FD, #C0E0F7);
+					background: linear-gradient(top, #E7F5FD, #C0E0F7);
+
+			
+			   -moz-border-radius:6px;
+			-webkit-border-radius:6px;
+					border-radius:6px;
+			
+			border:1px solid #CDCDCD;
+			display:inline-block;
+			
+			color: #343434;
+		
+			font-size:14px;
+			font-weight:bold;
+			text-decoration:none;
+			text-shadow:1px 1px 0px #ffffff;
+	 
+		   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
+		-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
+				box-shadow: 2px 2px 6px 0px #B7B7B7;
+				
+		behavior: url(PIE/PIE.htc);		
+	}
+		
+		.getCode-oldLanding-button:hover
+		{
+			color: #0E65AC;
+			
+				background:#AECBE0;
+			   	   background: -moz-linear-gradient(bottom, #E7F5FD, #C0E0F7);
+				background: -webkit-linear-gradient(bottom, #E7F5FD, #C0E0F7);
+						background: linear-gradient(bottom, #E7F5FD, #C0E0F7);
+		
+			behavior: url(PIE/PIE.htc);
+		}
+		
+			.getCode-oldLanding-button:active
+			{
+				color: #343434;
+			}

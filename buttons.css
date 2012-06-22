@@ -8,10 +8,11 @@
 	.activate-button
 		{
 			height: 20px; /* -4px for padding */
-			width:  89px; /* -7px for padding */
+			width:  96px;
 			cursor: pointer;
 			
-			padding: 4px 0px 0px 9px;
+			padding-top: 4px;
+			text-align: center;
 			
 			
 				background:#148EAB;
@@ -195,50 +196,34 @@
 
 .getCode-oldLanding-button
 	{
-		height: 33px;
-		width:  121px;
+		height: 23px;  /* -5 px */
+		width:  85px;
+
+		text-align: center;
+		padding-top:5px;
+				
 		 cursor: pointer;
 
-			background:#C0E0F7;
-		   	   background: -moz-linear-gradient(top, #E7F5FD, #C0E0F7);
-			background: -webkit-linear-gradient(top, #E7F5FD, #C0E0F7);
-					background: linear-gradient(top, #E7F5FD, #C0E0F7);
+			background:#189BBA;
 
-			
-			   -moz-border-radius:6px;
-			-webkit-border-radius:6px;
-					border-radius:6px;
-			
-			border:1px solid #CDCDCD;
 			display:inline-block;
 			
-			color: #343434;
+			color: #ffffff;
 		
-			font-size:14px;
-			font-weight:bold;
+			font: 14px Arial;
 			text-decoration:none;
-			text-shadow:1px 1px 0px #ffffff;
-	 
-		   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
-		-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
-				box-shadow: 2px 2px 6px 0px #B7B7B7;
+
+ 
 				
 		behavior: url(PIE/PIE.htc);		
 	}
 		
 		.getCode-oldLanding-button:hover
-		{
-			color: #0E65AC;
-			
-				background:#AECBE0;
-			   	   background: -moz-linear-gradient(bottom, #E7F5FD, #C0E0F7);
-				background: -webkit-linear-gradient(bottom, #E7F5FD, #C0E0F7);
-						background: linear-gradient(bottom, #E7F5FD, #C0E0F7);
-		
-			behavior: url(PIE/PIE.htc);
+		{	
+				background: #1AB3D6;
 		}
 		
 			.getCode-oldLanding-button:active
 			{
-				color: #343434;
+				color: #C0E0F7;
 			}

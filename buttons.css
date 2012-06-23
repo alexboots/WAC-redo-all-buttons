@@ -72,62 +72,6 @@
 				}
 
 
-/* Code Button (button with checkered border)*/
-/*********************************************/
-/*********************************************/
-/*********************************************/
-/*********************************************/
-
-
-.code-button
-	{
-		height: 33px;
-		width:  121px;
-		 cursor: pointer;
-
-			background:#C0E0F7;
-		   	   background: -moz-linear-gradient(top, #E7F5FD, #C0E0F7);
-			background: -webkit-linear-gradient(top, #E7F5FD, #C0E0F7);
-					background: linear-gradient(top, #E7F5FD, #C0E0F7);
-
-			
-			   -moz-border-radius:6px;
-			-webkit-border-radius:6px;
-					border-radius:6px;
-			
-			border:1px solid #CDCDCD;
-			display:inline-block;
-			
-			color: #343434;
-		
-			font-size:14px;
-			font-weight:bold;
-			text-decoration:none;
-			text-shadow:1px 1px 0px #ffffff;
-	 
-		   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
-		-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
-				box-shadow: 2px 2px 6px 0px #B7B7B7;
-				
-		behavior: url(PIE/PIE.htc);		
-	}
-		
-		.code-button:hover
-		{
-			color: #0E65AC;
-			
-				background:#AECBE0;
-			   	   background: -moz-linear-gradient(bottom, #E7F5FD, #C0E0F7);
-				background: -webkit-linear-gradient(bottom, #E7F5FD, #C0E0F7);
-						background: linear-gradient(bottom, #E7F5FD, #C0E0F7);
-		
-			behavior: url(PIE/PIE.htc);
-		}
-		
-			.code-button:active
-			{
-				color: #343434;
-			}
 
 
 /*		Get Code Button		*/	
@@ -140,112 +84,123 @@
 
 .getCode-button
 	{
-		height: 33px;
-		width:  121px;
-		 cursor: pointer;
+			width:  96px;
+			height: 22px; /* -8px for padding */
 
-			background:#C0E0F7;
-		   	   background: -moz-linear-gradient(top, #E7F5FD, #C0E0F7);
-			background: -webkit-linear-gradient(top, #E7F5FD, #C0E0F7);
-					background: linear-gradient(top, #E7F5FD, #C0E0F7);
+			cursor: pointer;
+			
+			padding-top: 8px;
+			text-align: center;
+			
+			
+				background:#148EAB;
+			   	   background: -moz-linear-gradient(top, #44B3CD, #148EAB);
+				background: -webkit-linear-gradient(top, #44B3CD, #148EAB);
+						background: linear-gradient(top, #44B3CD, #148EAB);
 
-			
-			   -moz-border-radius:6px;
-			-webkit-border-radius:6px;
-					border-radius:6px;
-			
-			border:1px solid #CDCDCD;
-			display:inline-block;
-			
-			color: #343434;
-		
-			font-size:14px;
-			font-weight:bold;
-			text-decoration:none;
-			text-shadow:1px 1px 0px #ffffff;
-	 
-		   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
-		-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
-				box-shadow: 2px 2px 6px 0px #B7B7B7;
 				
-		behavior: url(PIE/PIE.htc);		
+				   -moz-border-radius:3px;
+				-webkit-border-radius:3px;
+						border-radius:3px;
+				
+				border:1px solid #155362;
+				display:inline-block;
+				
+				color: #FFFFFF;
+				
+				font-family: ;
+				font:bold 13px Arial;
+				text-decoration: none;
+				text-shadow:1px 1px 0px #0D5C6E;
+				text-transform: uppercase;
+		 
+			   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
+			-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
+					box-shadow: 2px 2px 6px 0px #B7B7B7;
+					
+			behavior: url(PIE/PIE.htc);	
 	}
 		
 		.getCode-button:hover
 		{
-			color: #0E65AC;
+			color: #FFFFFF;
 			
-				background:#AECBE0;
-			   	   background: -moz-linear-gradient(bottom, #E7F5FD, #C0E0F7);
-				background: -webkit-linear-gradient(bottom, #E7F5FD, #C0E0F7);
-						background: linear-gradient(bottom, #E7F5FD, #C0E0F7);
+				background:#148EAB;
+			   	   background: -moz-linear-gradient(bottom, #44B3CD, #148EAB);
+				background: -webkit-linear-gradient(bottom, #44B3CD, #148EAB);
+						background: linear-gradient(bottom, #44B3CD, #148EAB);
+				
 		
 			behavior: url(PIE/PIE.htc);
 		}
 		
 			.getCode-button:active
 			{
-				color: #343434;
+				color: #C0E0F7;
 			}
 
 
 
-			/*	 Show Deal Button :: UK */	
-			/****************************/
-			/****************************/
-			/****************************/
-			/****************************/
-			/****************************/
+/* Show Deal Button :: UK */	
+/****************************/
+/****************************/
+/****************************/
+/****************************/
+/****************************/
 
 
 			.show-deal-uk
 				{
-					height: 33px;
-					width:  121px;
-					 cursor: pointer;
+							height: 20px; /* -4px for padding */
+							width:  104px;
+						cursor: pointer;
 
-						background:#C0E0F7;
-					   	   background: -moz-linear-gradient(top, #E7F5FD, #C0E0F7);
-						background: -webkit-linear-gradient(top, #E7F5FD, #C0E0F7);
-								background: linear-gradient(top, #E7F5FD, #C0E0F7);
+						padding-top: 5px;
+						text-align: center;
 
 
-						   -moz-border-radius:6px;
-						-webkit-border-radius:6px;
-								border-radius:6px;
+							background:#148EAB;
+						   	   background: -moz-linear-gradient(top, #44B3CD, #148EAB);
+							background: -webkit-linear-gradient(top, #44B3CD, #148EAB);
+									background: linear-gradient(top, #44B3CD, #148EAB);
 
-						border:1px solid #CDCDCD;
-						display:inline-block;
 
-						color: #343434;
+							   -moz-border-radius:3px;
+							-webkit-border-radius:3px;
+									border-radius:3px;
 
-						font-size:14px;
-						font-weight:bold;
-						text-decoration:none;
-						text-shadow:1px 1px 0px #ffffff;
+							border:1px solid #155362;
+							display:inline-block;
 
-					   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
-					-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
-							box-shadow: 2px 2px 6px 0px #B7B7B7;
+							color: #FFFFFF;
 
-					behavior: url(PIE/PIE.htc);		
+							font-family: ;
+							font:bold 13px Arial;
+							text-decoration: none;
+							text-shadow:1px 1px 0px #0D5C6E;
+							text-transform: uppercase;
+
+						   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
+						-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
+								box-shadow: 2px 2px 6px 0px #B7B7B7;	
 				}
 
 					.show-deal-uk:hover
 					{
-						color: #0E65AC;
+							color: #FFFFFF;
 
-							background:#AECBE0;
-						   	   background: -moz-linear-gradient(bottom, #E7F5FD, #C0E0F7);
-							background: -webkit-linear-gradient(bottom, #E7F5FD, #C0E0F7);
-									background: linear-gradient(bottom, #E7F5FD, #C0E0F7);
+								background:#148EAB;
+							   	   background: -moz-linear-gradient(bottom, #44B3CD, #148EAB);
+								background: -webkit-linear-gradient(bottom, #44B3CD, #148EAB);
+										background: linear-gradient(bottom, #44B3CD, #148EAB);
 
-						behavior: url(PIE/PIE.htc);
+
+							behavior: url(PIE/PIE.htc);
 					}
 
 						.show-deal-uk:active
 						{
-							color: #343434;
+							color: #C0E0F7;
 						}
 						
 						
@@ -288,3 +243,65 @@
 			{
 				color: #C0E0F7;
 			}
+
+/* Code Button (button with checkered border)*/
+/*********************************************/
+/*********************************************/
+/*********************************************/
+/*********************************************/
+
+
+			.w-code-button
+			{
+				border-style:dashed;
+				border-width:2px;
+				border-color:#3d7783;
+				height:26px;
+				width:auto;
+
+			 
+				padding-right: 8px;
+				
+				font: 14 Helvetica;
+					
+ 						display:-moz-inline-stack;
+						display:inline-block;
+						zoom:1;
+						*display:inline;
+			}
+
+				.w-code-button .scissors
+				{
+					margin-left:6px;
+					margin-top:6px;
+					float:left;
+				}
+
+
+					.w-code-button .wordCode
+					{
+						font-weight:bold;
+						color:#1b7185;	
+						font-size:14px;			
+						float:left;
+
+							padding-top:5px;
+							padding-left:7px;
+							padding-right:5px;
+					}
+
+					.w-code-button .code
+					{
+						font-weight:bold;
+						color:#15a5c6;	
+						font-size:14px;
+							
+		 						display:-moz-inline-stack;
+								display:inline-block;
+								zoom:1;
+								*display:inline;					
+								
+						padding-top: 5px;
+					}
+
+		

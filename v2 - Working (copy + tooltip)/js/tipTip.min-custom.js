@@ -6,8 +6,6 @@ $(function(){
 	$(".w-code-button").tipTip();
 });
 
-
-/** I edited the face-in/fade-out/delay in the JS below so the default is instant with a slight fade out */
  /*
  * TipTip
  * Copyright 2010 Drew Wilson

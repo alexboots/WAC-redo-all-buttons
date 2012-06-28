@@ -1,7 +1,7 @@
 .w
 {
 	margin: 100px 0px 100px 100px;
-	background: gray;
+
 }
 
 
@@ -33,14 +33,6 @@
 				
 				border:1px solid #155362;
 				display:inline-block;
-				
-				color: #FFFFFF;
-				
-				font-family: ;
-				font:bold 13px Arial;
-				text-decoration: none;
-				text-shadow:1px 1px 0px #0D5C6E;
-				text-transform: uppercase;
 		 
 			   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
 			-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
@@ -48,6 +40,17 @@
 					
 			behavior: url(PIE/PIE.htc);		
 		}
+			.activate-button a
+			{
+				color: #FFFFFF;
+				
+				font-family: ;
+				font:bold 13px Arial;
+				text-decoration: none;
+				text-shadow:1px 1px 0px #0D5C6E;
+				text-transform: uppercase;
+			}
+		
 			.activate-btn-arrow
 			{
 				font-size: 11px;
@@ -70,12 +73,7 @@
 					
 			
 				behavior: url(PIE/PIE.htc);
-			}
-			
-				.activate-button:active
-				{
-					color: #C0E0F7;
-				}
+			}				
 				
 				.code
 				{
@@ -116,19 +114,23 @@
 				border:1px solid #155362;
 				display:inline-block;
 				
-				color: #FFFFFF;
-				
-				font-family: ;
-				font:bold 13px Arial;
-				text-decoration: none;
-				text-shadow:1px 1px 0px #0D5C6E;
-				text-transform: uppercase;
 		 
 			   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
 			-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
 					box-shadow: 2px 2px 6px 0px #B7B7B7;
 					
 			behavior: url(PIE/PIE.htc);	
+	}
+	
+	.getCode-button a
+	{
+			color: #FFFFFF;
+			
+			font-family: ;
+			font:bold 13px Arial;
+			text-decoration: none;
+			text-shadow:1px 1px 0px #0D5C6E;
+			text-transform: uppercase;
 	}
 		
 		.getCode-button:hover
@@ -161,8 +163,8 @@
 
 			.show-deal-uk
 				{
-							height: 20px; /* -4px for padding */
-							width:  104px;
+						height: 20px; /* -4px for padding */
+						width:  104px;
 						cursor: pointer;
 
 						padding-top: 5px;
@@ -181,20 +183,23 @@
 
 							border:1px solid #155362;
 							display:inline-block;
-
-							color: #FFFFFF;
-
-							font-family: ;
-							font:bold 13px Arial;
-							text-decoration: none;
-							text-shadow:1px 1px 0px #0D5C6E;
-							text-transform: uppercase;
-
+						
 						   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
 						-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
 								box-shadow: 2px 2px 6px 0px #B7B7B7;	
 				}
 
+				.show-deal-uk a
+				{
+						color: #FFFFFF;
+
+						font-family: ;
+						font:bold 13px Arial;
+						text-decoration: none;
+						text-shadow:1px 1px 0px #0D5C6E;
+						text-transform: uppercase;					
+				}
+				
 					.show-deal-uk:hover
 					{
 							color: #FFFFFF;
@@ -233,16 +238,16 @@
 			background:#189BBA;
 
 			display:inline-block;
-			
-			color: #ffffff;
-		
-			font: 14px Arial;
-			text-decoration:none;
-
- 
 				
 		behavior: url(PIE/PIE.htc);		
 	}
+	
+		.getCode-oldLanding-button a
+		{
+			color: #ffffff;
+			font: 14px Arial;
+			text-decoration:none;
+		}
 		
 		.getCode-oldLanding-button:hover
 		{	
@@ -287,7 +292,6 @@
 					float:left;
 				}
 
-
 					.w-code-button .wordCode
 					{
 						font-weight:bold;
@@ -299,20 +303,17 @@
 							padding-left:7px;
 							padding-right:5px;
 					}
-
-					.w-code-button .code
+					
+					.w-code-button a
 					{
-						font-weight:bold;
-						color:#15a5c6;	
-						font-size:14px;
-							
-		 						display:-moz-inline-stack;
-								display:inline-block;
-								zoom:1;
-								*display:inline;					
-								
-						padding-top: 5px;
+							font-weight:bold;
+							color:#15a5c6;	
+							font-size:14px;
+							text-decoration: none;
 					}
+					
+					.code-visible
+					{line-height:26px;}
 
 
 /***************************** START TOOLTIP CSS **********************************/
@@ -356,7 +357,7 @@
 		background: linear-gradient(top,  #1c7589 0%,#19677b 100%); /* W3C */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7589', endColorstr='#19677b',GradientType=0 ); /* IE6-9 */
 		
-	border: 1px double #fff;
+	border: 1px solid #fff;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;

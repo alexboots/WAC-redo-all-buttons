@@ -1,0 +1,408 @@
+.w
+{
+	margin: 100px 0px 100px 100px;
+
+}
+
+
+/* Activate Button */
+/*******************/
+/*******************/
+/*******************/
+/*******************/
+
+	.activate-button
+		{
+			height: 20px; /* -4px for padding */
+			width:  96px;
+			cursor: pointer;
+			
+			padding-top: 4px;
+			text-align: center;
+			
+			
+				background:#148EAB;
+			   	   background: -moz-linear-gradient(top, #44B3CD, #148EAB);
+				background: -webkit-linear-gradient(top, #44B3CD, #148EAB);
+						background: linear-gradient(top, #44B3CD, #148EAB);
+
+				
+				   -moz-border-radius:3px;
+				-webkit-border-radius:3px;
+						border-radius:3px;
+				
+				border:1px solid #155362;
+				display:inline-block;
+				
+				color: #FFFFFF;
+				
+				font-family: ;
+				font:bold 13px Arial;
+				text-decoration: none;
+				text-shadow:1px 1px 0px #0D5C6E;
+				text-transform: uppercase;
+		 
+			   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
+			-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
+					box-shadow: 2px 2px 6px 0px #B7B7B7;
+					
+			behavior: url(PIE/PIE.htc);		
+		}
+			.activate-btn-arrow
+			{
+				font-size: 11px;
+			}
+			
+			.noCodeNeeded
+			{
+				color: #454545;
+				font: bold 11px/14px proxima-nova-1,Arial,Helvetica,sans-serif''
+			}
+			
+			.activate-button:hover
+			{
+				color: #FFFFFF;
+				
+					background:#148EAB;
+				   	   background: -moz-linear-gradient(bottom, #44B3CD, #148EAB);
+					background: -webkit-linear-gradient(bottom, #44B3CD, #148EAB);
+							background: linear-gradient(bottom, #44B3CD, #148EAB);
+					
+			
+				behavior: url(PIE/PIE.htc);
+			}
+			
+				.activate-button:active
+				{
+					color: #C0E0F7;
+				}
+				
+				.code
+				{
+					display: none;
+				}
+
+
+
+/*		Get Code Button		*/	
+/****************************/
+/****************************/
+/****************************/
+/****************************/
+/****************************/
+
+
+.getCode-button
+	{
+			width:  96px;
+			height: 22px; /* -8px for padding */
+
+			cursor: pointer;
+			
+			padding-top: 8px;
+			text-align: center;
+			
+			
+				background:#148EAB;
+			   	   background: -moz-linear-gradient(top, #44B3CD, #148EAB);
+				background: -webkit-linear-gradient(top, #44B3CD, #148EAB);
+						background: linear-gradient(top, #44B3CD, #148EAB);
+
+				
+				   -moz-border-radius:3px;
+				-webkit-border-radius:3px;
+						border-radius:3px;
+				
+				border:1px solid #155362;
+				display:inline-block;
+				
+				color: #FFFFFF;
+				
+				font-family: ;
+				font:bold 13px Arial;
+				text-decoration: none;
+				text-shadow:1px 1px 0px #0D5C6E;
+				text-transform: uppercase;
+		 
+			   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
+			-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
+					box-shadow: 2px 2px 6px 0px #B7B7B7;
+					
+			behavior: url(PIE/PIE.htc);	
+	}
+		
+		.getCode-button:hover
+		{
+			color: #FFFFFF;
+			
+				background:#148EAB;
+			   	   background: -moz-linear-gradient(bottom, #44B3CD, #148EAB);
+				background: -webkit-linear-gradient(bottom, #44B3CD, #148EAB);
+						background: linear-gradient(bottom, #44B3CD, #148EAB);
+				
+		
+			behavior: url(PIE/PIE.htc);
+		}
+		
+			.getCode-button:active
+			{
+				color: #C0E0F7;
+			}
+
+
+
+/* Show Deal Button :: UK */	
+/****************************/
+/****************************/
+/****************************/
+/****************************/
+/****************************/
+
+
+			.show-deal-uk
+				{
+							height: 20px; /* -4px for padding */
+							width:  104px;
+						cursor: pointer;
+
+						padding-top: 5px;
+						text-align: center;
+
+
+							background:#148EAB;
+						   	   background: -moz-linear-gradient(top, #44B3CD, #148EAB);
+							background: -webkit-linear-gradient(top, #44B3CD, #148EAB);
+									background: linear-gradient(top, #44B3CD, #148EAB);
+
+
+							   -moz-border-radius:3px;
+							-webkit-border-radius:3px;
+									border-radius:3px;
+
+							border:1px solid #155362;
+							display:inline-block;
+
+							color: #FFFFFF;
+
+							font-family: ;
+							font:bold 13px Arial;
+							text-decoration: none;
+							text-shadow:1px 1px 0px #0D5C6E;
+							text-transform: uppercase;
+
+						   -moz-box-shadow: 2px 2px 6px 0px #B7B7B7;
+						-webkit-box-shadow: 2px 2px 6px 0px #B7B7B7;
+								box-shadow: 2px 2px 6px 0px #B7B7B7;	
+				}
+
+					.show-deal-uk:hover
+					{
+							color: #FFFFFF;
+
+								background:#148EAB;
+							   	   background: -moz-linear-gradient(bottom, #44B3CD, #148EAB);
+								background: -webkit-linear-gradient(bottom, #44B3CD, #148EAB);
+										background: linear-gradient(bottom, #44B3CD, #148EAB);
+
+
+							behavior: url(PIE/PIE.htc);
+					}
+
+						.show-deal-uk:active
+						{
+							color: #C0E0F7;
+						}
+						
+						
+/*  getCode-oldLanding-button  */
+/*******************************/
+/*******************************/
+/*******************************/
+/*******************************/
+
+.getCode-oldLanding-button
+	{
+		height: 23px;  /* -5 px */
+		width:  85px;
+
+		text-align: center;
+		padding-top:5px;
+				
+		 cursor: pointer;
+
+			background:#189BBA;
+
+			display:inline-block;
+			
+			color: #ffffff;
+		
+			font: 14px Arial;
+			text-decoration:none;
+
+ 
+				
+		behavior: url(PIE/PIE.htc);		
+	}
+		
+		.getCode-oldLanding-button:hover
+		{	
+				background: #1AB3D6;
+		}
+		
+			.getCode-oldLanding-button:active
+			{
+				color: #C0E0F7;
+			}
+
+/* Code Button (button with checkered border)*/
+/*********************************************/
+/*********************************************/
+/*********************************************/
+/*********************************************/
+
+
+			.w-code-button
+			{
+				border-style:dashed;
+				border-width:2px;
+				border-color:#3d7783;
+				height:26px;
+				width:auto;
+				
+			 	cursor: pointer;
+				padding-right: 8px;
+				
+				font: 14 Helvetica;
+					
+ 						display:-moz-inline-stack;
+						display:inline-block;
+						zoom:1;
+						*display:inline;
+			}
+
+				.w-code-button .scissors
+				{
+					margin-left:6px;
+					margin-top:6px;
+					float:left;
+				}
+
+
+					.w-code-button .wordCode
+					{
+						font-weight:bold;
+						color:#1b7185;	
+						font-size:14px;			
+						float:left;
+
+							padding-top:5px;
+							padding-left:7px;
+							padding-right:5px;
+					}
+
+					.w-code-button .code
+					{
+						font-weight:bold;
+						color:#15a5c6;	
+						font-size:14px;
+							
+		 						display:-moz-inline-stack;
+								display:inline-block;
+								zoom:1;
+								*display:inline;					
+								
+						padding-top: 5px;
+					}
+
+
+/***************************** START TOOLTIP CSS **********************************/
+/***************************** START TOOLTIP CSS **********************************/
+/***************************** START TOOLTIP CSS **********************************/
+/***************************** START TOOLTIP CSS **********************************/
+/***************************** START TOOLTIP CSS **********************************/
+
+/* TipTip CSS - Version 1.2 */
+
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+
+}
+
+
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+
+#tiptip_content {
+	font-family: helvetica;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 0 0 2px #205B69;
+	
+	padding: 4px 8px;
+	
+
+	
+		background: #1c7589; /* Old browsers */
+		background: -moz-linear-gradient(top,  #1c7589 0%, #19677b 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1c7589), color-stop(100%,#19677b)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #1c7589 0%,#19677b 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #1c7589 0%,#19677b 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #1c7589 0%,#19677b 100%); /* IE10+ */
+		background: linear-gradient(top,  #1c7589 0%,#19677b 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7589', endColorstr='#19677b',GradientType=0 ); /* IE6-9 */
+		
+	border: 1px solid #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+		
+	box-shadow: 0 0 3px #555;
+	-webkit-box-shadow: 0 0 3px #555;
+	-moz-box-shadow: 0 0 3px #555;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+	border-bottom-color: #fff;
+
+}
+
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;	
+	border-bottom-color: #1c7589;
+}
+
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {	
+	#tiptip_content {
+		padding: 4px 8px 5px 8px;
+		background: #1c7589;
+	}
+	#tiptip_holder.tip_bottom #tiptip_arrow_inner { 
+		border-bottom-color: #1c7589;
+	}
+}
+		
+/***************************** END TOOLTIP CSS **********************************/
+/***************************** END TOOLTIP CSS **********************************/
+/***************************** END TOOLTIP CSS **********************************/
+/***************************** END TOOLTIP CSS **********************************/
+/***************************** END TOOLTIP CSS **********************************/
+
+

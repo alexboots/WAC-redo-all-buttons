@@ -1,7 +1,10 @@
 $(function(){
-$(".someClass").tipTip();
+	$(".activate-button").tipTip();
+	$(".getCode-button").tipTip();
+	$(".show-deal-uk").tipTip();
+	$(".getCode-oldLanding-button").tipTip();
+	$(".w-code-button").tipTip();
 });
-
 
  /*
  * TipTip

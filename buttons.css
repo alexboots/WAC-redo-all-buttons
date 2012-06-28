@@ -1,3 +1,9 @@
+.w
+{
+	margin: 100px 0px 100px 100px;
+	background: gray;
+}
+
 
 /* Activate Button */
 /*******************/
@@ -70,7 +76,11 @@
 				{
 					color: #C0E0F7;
 				}
-
+				
+				.code
+				{
+					display: none;
+				}
 
 
 
@@ -258,8 +268,8 @@
 				border-color:#3d7783;
 				height:26px;
 				width:auto;
-
-			 
+				
+			 	cursor: pointer;
 				padding-right: 8px;
 				
 				font: 14 Helvetica;
@@ -304,4 +314,95 @@
 						padding-top: 5px;
 					}
 
+
+/***************************** START TOOLTIP CSS **********************************/
+/***************************** START TOOLTIP CSS **********************************/
+/***************************** START TOOLTIP CSS **********************************/
+/***************************** START TOOLTIP CSS **********************************/
+/***************************** START TOOLTIP CSS **********************************/
+
+/* TipTip CSS - Version 1.2 */
+
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+
+}
+
+
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+
+#tiptip_content {
+	font-family: helvetica;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 0 0 2px #205B69;
+	
+	padding: 4px 8px;
+	
+
+	
+		background: #1c7589; /* Old browsers */
+		background: -moz-linear-gradient(top,  #1c7589 0%, #19677b 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1c7589), color-stop(100%,#19677b)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #1c7589 0%,#19677b 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #1c7589 0%,#19677b 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #1c7589 0%,#19677b 100%); /* IE10+ */
+		background: linear-gradient(top,  #1c7589 0%,#19677b 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c7589', endColorstr='#19677b',GradientType=0 ); /* IE6-9 */
 		
+	border: 1px double #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+		
+	box-shadow: 0 0 3px #555;
+	-webkit-box-shadow: 0 0 3px #555;
+	-moz-box-shadow: 0 0 3px #555;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+	border-bottom-color: #fff;
+
+}
+
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;	
+	border-bottom-color: #1c7589;
+}
+
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {	
+	#tiptip_content {
+		padding: 4px 8px 5px 8px;
+		background: #1c7589;
+	}
+	#tiptip_holder.tip_bottom #tiptip_arrow_inner { 
+		border-bottom-color: #1c7589;
+	}
+}
+		
+/***************************** END TOOLTIP CSS **********************************/
+/***************************** END TOOLTIP CSS **********************************/
+/***************************** END TOOLTIP CSS **********************************/
+/***************************** END TOOLTIP CSS **********************************/
+/***************************** END TOOLTIP CSS **********************************/
+
+
